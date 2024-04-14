@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.yard {
+  width: 600px;
+  height: 400px;
+  margin-top: 10%;
+  margin-left: 10%;
+  background-color: rgb(233, 221, 206);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.button {
+  margin-left: 19px;
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+}
+.active {
+  width: 70px;
+  height: 100px;
+}
+.paragraf {
+  display: none;
+}
+.active--paragraf {
+  display: block;
+}
